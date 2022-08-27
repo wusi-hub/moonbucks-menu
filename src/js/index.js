@@ -8,26 +8,18 @@
 // - [ ] 사용자 입력값이 빈 값이라면 추가되지 않는다.
 
 function App() {
-    document.querySelector("#espresso-menu-form").addEventListener('submit', (e) => {
+    document.querySelector('#espresso-menu-form').addEventListener('submit', (e) => {
         e.preventDefault();
     })
 
-    document.querySelector("#espresso-menu-name").addEventListener('keypress', (e) => {
+    document.querySelector('#espresso-menu-name').addEventListener('keypress', (e) => {
         if(e.key === 'Enter') {
-            console.log(document.querySelector("#espresso-menu-name").value);
+            console.log(document.querySelector('#espresso-menu-name').value);
         }
     });
 }
 
 App();
-
-
-
-
-
-
-
-
 
 
 // TODO 메뉴 수정
@@ -40,3 +32,31 @@ App();
 // - [ ] 총 메뉴 갯수를 count하여 상단에 보여준다.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function App() {
+//     document.querySelector("#espresso-menu-form").addEventListener('submit', (e) => {
+//         e.preventDefault();
+//     })
+
+//     document.querySelector("#espresso-menu-name").addEventListener('keypress', (e) => {
+//         if(e.key === 'Enter') {
+//             console.log(document.querySelector("#espresso-menu-name").value);
+//         }
+//     });
+// }
+
+// App();
